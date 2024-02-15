@@ -97,14 +97,14 @@ if __name__ == "__main__":
 
     #3
     lion = Animal("Лев", "Сімба")
-    elephant = Animal("Мавпа", "Віталій")
-    tiger = Animal("Риба", "Немо")
+    monkey = Animal("Мавпа", "Віталій")
+    fish = Animal("Риба", "Немо")
     zoo = Zoo()
     zoo.add_animal(lion)
-    zoo.add_animal(elephant)
-    zoo.add_animal(tiger)
+    zoo.add_animal(monkey)
+    zoo.add_animal(fish)
     print(zoo)
-    zoo.remove_animal(elephant)
+    zoo.remove_animal(monkey)
     print(zoo)
 
     #4
