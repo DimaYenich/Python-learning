@@ -86,7 +86,7 @@ class Human():
 
 #Студент
 class Student(Human):
-    def __init__(self, name, age, university):
+    def __init__(self, name, age, university, grades):
         super().__init__(name, age)
         self.university = university
         self.grades = []
